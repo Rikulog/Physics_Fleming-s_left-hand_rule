@@ -24,7 +24,9 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=3.0" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>ScienceData</title>
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
@@ -37,7 +39,6 @@
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#bicycle">Bicycle</a></li>
         </ul>
       </nav>
     </header>
@@ -66,15 +67,18 @@
         <h2 class="section-title">3Dモデル</h2>
         <ul>
           <li>
-            <h3 class="content-title">タイトルタイトル</h3>
-            <p>テキストテキストテキスト</p>
+            <h3 class="content-title">フレミングの左手の法則</h3>
+            <p><model-viewer
+          ar
+          ar-modes="scene-viewer webxr quick-look"
+          src="./f.glb"
+          alt="Cyawan"
+          auto-rotate
+          camera-controls
+        ></model-viewer></p>
           </li>
           <li>
-            <h3 class="content-title">タイトルタイトル</h3>
-            <p>テキストテキストテキスト</p>
-          </li>
-          <li>
-            <h3 class="content-title">タイトルタイトル</h3>
+            <h3 class="content-title">右ねじの法則</h3>
             <p>テキストテキストテキスト</p>
           </li>
         </ul>
