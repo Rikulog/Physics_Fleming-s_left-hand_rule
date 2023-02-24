@@ -8,18 +8,19 @@ src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
     <meta charset="utf-8">
     <title>フレミングの左手の法則</title>    
     <script type="module" src="https://unpkg.com/@google/model-viewer@1.0.0/dist/model-viewer.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <figure class="img">
-    <model-viewer
-      src="Fleming's_left-hand_rule.glb"
-      ios-src="Fleming's_left-hand_rule.usdz"
-      max-width="100%"
-      ar
-      camera-controls
-      auto-rotate ar magic-leap>
-    </model-viewer>
-    </figure>
+    <div class="container">
+  <model-viewer
+    src="path/to/your-model.glb"
+    alt="A 3D model"
+    background-color="#000000"
+    camera-controls
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    ar-scale="auto"
+    style="width: 100%; height: 100vh;"
+  ></model-viewer>
+</div>
   </body>
 </html>
