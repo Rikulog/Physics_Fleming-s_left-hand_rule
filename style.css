@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-.container {
+model-viewer{
   display: flex;
   justify-content: center;
   align-items: center;
