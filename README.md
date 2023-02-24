@@ -1,1 +1,1 @@
-# rikuscience
+# science
